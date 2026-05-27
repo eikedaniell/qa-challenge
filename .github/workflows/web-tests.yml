@@ -1,0 +1,5 @@
+jobs:
+  web-tests:
+    steps:
+      - run: pip install -r requirements.txt
+      - run: pytest tests/  # Faltou instalar o Chrome!
