@@ -2,6 +2,8 @@ from pages.login_page import LoginPage
 from pages.inventory_page import InventoryPage
 from pages.cart_page import CartPage
 from pages.checkout_page import CheckoutPage
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 def test_end_to_end_purchase(driver):
     login_page = LoginPage(driver)
@@ -17,6 +19,11 @@ def test_end_to_end_purchase(driver):
 
     checkout_page = CheckoutPage(driver)
     checkout_page.fill_info("Joao", "Silva", "12345")
+    
+    # Espera a página de overview carregar
+    wait = WebDriverWait(driver, 5)
+    wait.until(EC.url_contains("checkout-step-two"))
+    
     checkout_page.finish_order()
 
     msg = checkout_page.get_success_message()
