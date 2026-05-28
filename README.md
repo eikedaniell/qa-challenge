@@ -1,62 +1,60 @@
-**# Desafio Técnico – Automação API + Web**
+# Desafio Técnico – Automação API + Web
 
 
 
-**## Tecnologias**
+## Tecnologias
 
-**- Python + Pytest**
+- Python + Pytest
 
-**- Requests (API)**
+- Requests (API)
 
-**- Selenium WebDriver (Web)**
+- Selenium WebDriver (Web)
 
-**- GitHub Actions (CI)**
-
-
-
-**## Como executar local**
+- GitHub Actions (CI)
 
 
 
-**### API Tests**
-
-**```bash**
-
-**cd api-tests**
-
-**pip install -r requirements.txt**
-
-**pytest tests/ -v**
+## Como executar local
 
 
 
-**cd web-tests**
+### API Tests
 
-**pip install -r requirements.txt**
+```bash
 
-**pytest tests/ -v**
+cd api-tests
 
+pip install -r requirements.txt
 
-
-
-
-**Prints de execução**
-
-**API Tests**
-
-**https://prints/api-tests.png**
+pytest tests/ -v
 
 
 
-**Web Tests**
+cd web-tests
 
-**https://prints/web-tests.png**
+pip install -r requirements.txt
+
+pytest tests/ -v
 
 
 
-**GitHub Actions**
 
-**https://prints/ci-pipeline.png**
+
+Prints de execução
+
+API Tests
+
+https://prints/api-tests.png
+
+Web Tests
+
+https://prints/web-tests.png
+
+
+
+GitHub Actions
+
+https://prints/ci-pipeline.png
 
 
 
