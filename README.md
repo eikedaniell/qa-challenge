@@ -28,3 +28,25 @@
 
 **pytest tests/ -v**
 
+
+
+**## Prints de execução**
+
+
+
+**### API Tests**
+
+**!\[API Tests](prints/api-tests.png)**
+
+
+
+**### Web Tests**
+
+**!\[Web Tests](prints/web-tests.png)**
+
+
+
+**### GitHub Actions**
+
+**!\[CI Pipeline](prints/ci-pipeline.png)**
+
