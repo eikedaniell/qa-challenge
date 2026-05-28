@@ -30,23 +30,35 @@
 
 
 
-**## Prints de execução**
+**cd web-tests**
+
+**pip install -r requirements.txt**
+
+**pytest tests/ -v**
 
 
 
-**### API Tests**
-
-**!\[API Tests](prints/api-tests.png)**
 
 
+**Prints de execução**
 
-**### Web Tests**
+**API Tests**
 
-**!\[Web Tests](prints/web-tests.png)**
+**https://prints/api-tests.png**
 
 
 
-**### GitHub Actions**
+**Web Tests**
 
-**!\[CI Pipeline](prints/ci-pipeline.png)**
+**https://prints/web-tests.png**
+
+
+
+**GitHub Actions**
+
+**https://prints/ci-pipeline.png**
+
+
+
+
 
