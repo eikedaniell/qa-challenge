@@ -16,8 +16,6 @@
 
 ## Como executar local
 
-
-
 ### API Tests
 
 ```bash
@@ -44,7 +42,7 @@ Prints de execução
 
 API Tests
 
-https://prints/api-tests.png
+![API Tests](prints/api-tests.png)
 
 Web Tests
 
