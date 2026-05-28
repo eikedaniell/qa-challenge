@@ -42,7 +42,8 @@ Prints de execução
 
 API Tests
 
-![API Tests](prints/api-tests.png)
+<img width="1458" height="264" alt="Captura de tela 2026-05-28 164543" src="https://github.com/user-attachments/assets/4478ed00-8aff-4126-91dc-1177f8ae3cfa" />
+
 
 Web Tests
 
